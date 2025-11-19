@@ -1,0 +1,90 @@
+# Diretórios do Visual Studio e do Rider
+.vs/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.sln.DotSettings
+
+# Build outputs
+bin/
+obj/
+out/
+TestResults/
+*.log
+*.vspscc
+*.vsp
+*.ncb
+*.sdf
+*.cache
+*.pdb
+*.ilk
+
+# Dependências e pacotes
+packages/
+node_modules/
+bower_components/
+project.lock.json
+project.assets.json
+.nuget/
+*.nupkg
+*.snupkg
+packages.lock.json
+
+# Arquivos do sistema
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.tmp
+*.bak
+*.swp
+*.DS_Store
+
+# Configurações de IDE
+*.rsuser
+*.sln.ide
+*.suo
+*.ncb
+*.pdb
+*.opendb
+*.VC.db
+*.dbmdl
+
+# Arquivos do Docker
+.dockerignore
+**/Dockerfile
+**/docker-compose*
+
+# Certificados e configurações sensíveis
+*.pfx
+*.key
+secrets.json
+appsettings.Development.json
+appsettings.Local.json
+appsettings.*.json
+
+# Logs e Debug
+*.log
+**/*.log
+logs/
+error.log
+
+# Arquivos temporários e cache
+*.pid
+*.cache
+*.rnd
+*.swo
+*.swp
+*.out
+
+# Arquivos do Azure e Publicação
+Azure/
+.publishsettings
+app.publish/
+*.Publish.xml
+CalculoApi/Properties/PublishProfiles/
+
+# Configuração do Rider
+CalculoApi/CalculoApi.sln.DotSettings
